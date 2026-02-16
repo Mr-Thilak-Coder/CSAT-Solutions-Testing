@@ -1,0 +1,71 @@
+# robots.txt for CSAT Solutions
+# https://www.csatsolutions.lk/robots.txt
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.csatsolutions.lk/sitemap.xml
+
+# Crawl delay (optional - use if experiencing server load issues)
+# Crawl-delay: 10
+
+# Disallow specific areas (uncomment and modify as needed)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /temp/
+# Disallow: /backup/
+
+# Disallow specific file types (if needed)
+# Disallow: /*.pdf$
+# Disallow: /*.doc$
+
+# Block specific bots (if needed)
+# User-agent: BadBot
+# Disallow: /
+
+# Common crawlers (already allowed by User-agent: * above)
+# But explicitly listing them can help with logging/monitoring
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Social Media Crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Notes:
+# 1. Place this file in the root directory of your website
+# 2. Test your robots.txt at: https://www.google.com/webmasters/tools/robots-testing-tool
+# 3. Update the Sitemap URL if your domain changes
+# 4. Monitor crawl stats in Google Search Console

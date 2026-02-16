@@ -1,0 +1,75 @@
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Backup Files
+*.backup
+*.bak
+*.old
+*.orig
+*~
+
+# Log Files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Environment Files (if you add any)
+.env
+.env.local
+.env.development
+.env.production
+
+# Build Files (if you add a build process)
+dist/
+build/
+out/
+
+# Node Modules (if you add npm packages)
+node_modules/
+
+# Private or Sensitive Files
+private/
+config/private.json
+*.key
+*.pem
+*.crt
+
+# Analytics and Tracking (keep these in repository but document separately)
+# gtm-config.json
+
+# Testing
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Package Manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
